@@ -160,36 +160,36 @@ object ThirdLib {
     }
 
 
-    object glide {
+    object Glide {
         const val glide = "com.github.bumptech.glide:glide:1.6.2"
     }
 
     object Lottie {
-        const val glide = "com.airbnb.android:lottie:3.4.4"
+        const val lottie = "com.airbnb.android:lottie:3.4.4"
     }
 
-    object easypermissions {
+    object Easypermissions {
         const val easypermissions = "pub.devrel:easypermissions:3.0.0"
     }
 
 
-    object mmkvStatic {
+    object MmkvStatic {
         const val mmkvStatic = "com.tencent:mmkv-static:1.2.8"
     }
 
-    object relinker {
+    object Relinker {
         const val relinker = "com.getkeepsafe.relinker:relinker:1.4.3"
     }
 
-    object kotlin_stdlib {
+    object KotlinStdlib {
         const val kotlin_stdlib = "org.jetbrains.kotlin:kotlin-stdlib:1.5.0"
     }
 
-    object google_gson {
-        const val kotlin_stdlib = "com.google.code.gson:gson:2.8.8"
+    object GoogleGson {
+        const val google_gson = "com.google.code.gson:gson:2.8.8"
     }
 
-    object immersionbar {
+    object Immersionbar {
         const val immersionbar = "com.gyf.immersionbar:immersionbar:3.0.0"
     }
 
