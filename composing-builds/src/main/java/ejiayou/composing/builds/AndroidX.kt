@@ -21,6 +21,7 @@ object AndroidX {
     const val paging = "androidx.paging:paging-runtime-ktx:2.1.2"
     const val viewpager = "androidx.viewpager:viewpager:1.0.0"
     const val exifinterface = "androidx.exifinterface:exifinterface:1.3.2"
+    const val lifecycle_runtime_ktx = "androidx.lifecycle:lifecycle-runtime-ktx:2.3.1"
 
     val fragment = Fragment
 
