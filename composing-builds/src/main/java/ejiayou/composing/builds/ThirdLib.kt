@@ -96,8 +96,7 @@ object ThirdLib {
     val banner = Banner
 
     object Banner {
-        private const val banner_version = "2.1.1"
-        const val banner = "com.youth.banner:banner:${banner_version}"
+        const val banner = "com.youth.banner:banner:2.1.1"
     }
 
     val smarttablayout = Smarttablayout
@@ -115,8 +114,7 @@ object ThirdLib {
 
     //美团打包
     object Mtwalle {
-        private const val mtwalle_version = "1.1.6"
-        const val mtwalle = "com.meituan.android.walle:library:${mtwalle_version}"
+        const val mtwalle = "com.meituan.android.walle:library:1.1.6"
     }
 
 
@@ -161,34 +159,38 @@ object ThirdLib {
 
     }
 
-    val glide = Glide
 
-    object Glide {
-        private const val glide_version = "1.6.2"
-        const val glide = "com.github.bumptech.glide:glide:$glide_version"
+    object glide {
+        const val glide = "com.github.bumptech.glide:glide:1.6.2"
     }
-    val lottie = Lottie
 
     object Lottie {
-        private const val lottie_version = "3.4.4"
-        const val glide = "com.airbnb.android:lottie:$lottie_version"
+        const val glide = "com.airbnb.android:lottie:3.4.4"
     }
 
-    val easypermissions = Easypermissions
-
-    object Easypermissions {
+    object easypermissions {
         const val easypermissions = "pub.devrel:easypermissions:3.0.0"
     }
 
-    val mmkvStatic = MmkvStatic
 
-    object MmkvStatic {
+    object mmkvStatic {
         const val mmkvStatic = "com.tencent:mmkv-static:1.2.8"
     }
 
-    val relinker = Relinker
-    object Relinker {
+    object relinker {
         const val relinker = "com.getkeepsafe.relinker:relinker:1.4.3"
+    }
+
+    object kotlin_stdlib {
+        const val kotlin_stdlib = "org.jetbrains.kotlin:kotlin-stdlib:1.5.0"
+    }
+
+    object google_gson {
+        const val kotlin_stdlib = "com.google.code.gson:gson:2.8.8"
+    }
+
+    object immersionbar {
+        const val immersionbar = "com.gyf.immersionbar:immersionbar:3.0.0"
     }
 
 }

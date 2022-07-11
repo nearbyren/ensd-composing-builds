@@ -20,9 +20,7 @@ object AndroidX {
     const val legacy = "androidx.legacy:legacy-support-v4:1.0.0"
     const val paging = "androidx.paging:paging-runtime-ktx:2.1.2"
     const val viewpager = "androidx.viewpager:viewpager:1.0.0"
-    const val espresso_core = "androidx.test.espresso:espresso-core"
-    const val test_junit = "androidx.test.ext:junit:1.1.1"
-    const val junit = "junit:junit:4.12"
+    const val exifinterface = "androidx.exifinterface:exifinterface:1.3.2"
 
     val fragment = Fragment
 
