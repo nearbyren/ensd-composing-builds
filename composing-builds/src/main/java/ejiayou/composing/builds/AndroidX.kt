@@ -22,6 +22,7 @@ object AndroidX {
     const val viewpager = "androidx.viewpager:viewpager:1.0.0"
     const val exifinterface = "androidx.exifinterface:exifinterface:1.3.2"
     const val lifecycle_runtime_ktx = "androidx.lifecycle:lifecycle-runtime-ktx:2.3.1"
+    const val databinding_runtime = "androidx.databinding:databinding-runtime:4.2.2"
 
     val fragment = Fragment
 
