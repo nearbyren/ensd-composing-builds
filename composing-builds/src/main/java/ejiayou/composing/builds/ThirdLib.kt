@@ -102,11 +102,10 @@ object ThirdLib {
     val smarttablayout = Smarttablayout
 
     object Smarttablayout {
-        private const val smarttablayout_version = "2.1.1"
         const val smarttablayout =
-            "com.ogaclejapan.smarttablayout:library:${smarttablayout_version}"
+            "com.ogaclejapan.smarttablayout:library:2.0.0@aar"
         const val smarttablayout_utils =
-            "com.ogaclejapan.smarttablayout:utils-v4:${smarttablayout_version}"
+            "com.ogaclejapan.smarttablayout:utils-v4:2.0.0@aar"
     }
 
 
