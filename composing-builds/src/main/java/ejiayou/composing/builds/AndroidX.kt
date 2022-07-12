@@ -7,7 +7,8 @@ package ejiayou.composing.builds
  */
 object AndroidX {
     const val percent = "androidx.percentlayout:percentlayout:1.0.0"
-    const val support_annotations = "androidx.annotation:annotation:1.0.0"
+    const val annotation = "androidx.annotation:annotation:1.0.0"
+    const val support_annotations = "com.android.support:support-annotations:1.0.0"
     const val coordinatorlayout =  "androidx.coordinatorlayout:coordinatorlayout:1.1.0"
     const val appcompat = "androidx.appcompat:appcompat:1.3.0-alpha01"
     const val support_compat = "androidx.core:core:1.0.0"

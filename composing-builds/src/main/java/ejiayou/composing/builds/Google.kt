@@ -7,6 +7,6 @@ package ejiayou.composing.builds
  */
 
 object Google {
-    const val material = "com.google.android.material:material:1.2.0-alpha05"
+    const val material = "com.google.android.material:material:1.3.0"
 
 }
