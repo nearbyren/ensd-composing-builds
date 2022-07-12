@@ -7,15 +7,15 @@ package ejiayou.composing.builds
  */
 object AndroidX {
     const val exifinterface = "androidx.exifinterface:exifinterface:1.3.2"
-    const val lifecycle_runtime_ktx = "androidx.lifecycle:lifecycle-runtime-ktx:2.3.1"
-    const val databinding_runtime = "androidx.databinding:databinding-runtime:4.2.2"
-    const val percent = "androidx.percentlayout:percentlayout:1.0.0"
-    const val support_annotations = "androidx.annotation:annotation:1.0.0"
+    const val lifecycleRuntimeKtx = "androidx.lifecycle:lifecycle-runtime-ktx:2.3.1"
+    const val databindingRuntime = "androidx.databinding:databinding-runtime:4.2.2"
+    const val percentlayout = "androidx.percentlayout:percentlayout:1.0.0"
+    const val annotation = "androidx.annotation:annotation:1.0.0"
     const val appcompat = "androidx.appcompat:appcompat:1.3.1"
-    const val support_compat = "androidx.core:core:1.0.0"
-    const val recyclerView = "  androidx.recyclerview:recyclerview:1.2.1"
+    const val core = "androidx.core:core:1.0.0"
+    const val recyclerView = "androidx.recyclerview:recyclerview:1.2.1"
     const val coreKtx = "androidx.core:core-ktx:1.6.0"
-    const val support_v13 = "androidx.legacy:legacy-support-v13:1.0.0"
+    const val supportV13 = "androidx.legacy:legacy-support-v13:1.0.0"
     const val activityKtx = "androidx.activity:activity-ktx:1.4.0"
     const val cardview = "androidx.cardview:cardview:1.0.0"
     const val multidex = "androidx.multidex:multidex:2.0.1"
@@ -43,7 +43,7 @@ object AndroidX {
         const val viewModelSavedState ="androidx.lifecycle:lifecycle-viewmodel-savedstate:$lifecycle_version"
         const val commonJava8 = "androidx.lifecycle:lifecycle-common-java8:$lifecycle_version"
         const val service = "androidx.lifecycle:lifecycle-service:$lifecycle_version"
-        const val lcy_ext = "androidx.lifecycle:lifecycle-extensions:$lifecycle_version"
+        const val lcyExt = "androidx.lifecycle:lifecycle-extensions:$lifecycle_version"
 
     }
 
@@ -52,8 +52,8 @@ object AndroidX {
 
     object Constraintlayout {
         private const val constraintlayout_version = "2.1.4"
-        const val constraint_layout = "androidx.constraintlayout:constraintlayout:$constraintlayout_version"
-        const val constraint_layoutSolver = "androidx.constraintlayout:constraintlayout-solver:$constraintlayout_version"
+        const val constraintLayout = "androidx.constraintlayout:constraintlayout:$constraintlayout_version"
+        const val constraintLayoutSolver = "androidx.constraintlayout:constraintlayout-solver:$constraintlayout_version"
 
     }
 
@@ -65,8 +65,8 @@ object AndroidX {
         private const val navigation_version = "2.4.2"
         const val fragmentKtx = "androidx.navigation:navigation-fragment-ktx:$navigation_version"
         const val uiKtx = "androidx.navigation:navigation-ui-ktx:$navigation_version"
-        const val kot_cor_and = "org.jetbrains.kotlinx:kotlinx-coroutines-android:1.5.0"
-        const val kot_cor_cor = "org.jetbrains.kotlinx:kotlinx-coroutines-core:1.5.0"
+        const val kotCorAnd = "org.jetbrains.kotlinx:kotlinx-coroutines-android:1.5.0"
+        const val kotCorCor = "org.jetbrains.kotlinx:kotlinx-coroutines-core:1.5.0"
     }
 
 
@@ -84,10 +84,10 @@ object AndroidX {
 
     object Camera {
         private const val camera_version = "1.0.0"
-        const val camera_core = "androidx.camera:camera-core:$camera_version"
-        const val camera_camera2 = "androidx.camera:camera-camera2:$camera_version"
-        const val camera_lifecycle = "androidx.camera:camera-lifecycle:$camera_version"
-        const val camera_view = "androidx.camera:camera-view:$camera_version"
-        const val camera_extensions = "androidx.camera:camera-extensions:$camera_version"
+        const val cameraCore = "androidx.camera:camera-core:$camera_version"
+        const val cameraCamera2 = "androidx.camera:camera-camera2:$camera_version"
+        const val cameraLifecycle = "androidx.camera:camera-lifecycle:$camera_version"
+        const val cameraView = "androidx.camera:camera-view:$camera_version"
+        const val cameraExtensions = "androidx.camera:camera-extensions:$camera_version"
     }
 }

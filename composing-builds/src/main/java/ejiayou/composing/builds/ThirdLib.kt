@@ -10,7 +10,7 @@ object ThirdLib {
     const val Toasty = "com.github.GrenderG:Toasty:1.2.8"
     const val light = "io.github.tonnyl:light:1.0.0"
     const val stateframelayout = "am.widget:stateframelayout:2.0.2"
-    const val sdk_panowidget = "com.google.vr:sdk-panowidget:1.80.0"
+    const val sdkPanowidget = "com.google.vr:sdk-panowidget:1.80.0"
 
     //功能引导指示图
     const val MaterialIntroView = "com.github.iammert:MaterialIntroView:1.6.0"
@@ -47,10 +47,10 @@ object ThirdLib {
     object Dagger {
         private const val dagger_version = "2.16"
         const val dagger = "com.google.dagger:dagger:${dagger_version}"
-        const val dagger2_compiler = "com.google.dagger:dagger-compiler:2.19"
-        const val dagger2_android = "com.google.dagger:dagger-android:2.19"
-        const val dagger2_support = "com.google.dagger:dagger-android-support:2.16"
-        const val dagger2_processor = "com.google.dagger:dagger-android-processor:2.16"
+        const val dagger2Compiler = "com.google.dagger:dagger-compiler:2.19"
+        const val dagger2Android = "com.google.dagger:dagger-android:2.19"
+        const val dagger2Support = "com.google.dagger:dagger-android-support:2.16"
+        const val dagger2Processor = "com.google.dagger:dagger-android-processor:2.16"
     }
 
 
@@ -59,12 +59,12 @@ object ThirdLib {
     object Okhttp3 {
         private const val okhttp3_version = "4.7.2"
         const val okhttp3 = "com.squareup.okhttp3:okhttp:${okhttp3_version}"
-        const val logging_interceptor = "com.squareup.okhttp3:logging-interceptor:3.8.1"
+        const val loggingInterceptor = "com.squareup.okhttp3:logging-interceptor:3.8.1"
         const val retrofit = "com.squareup.retrofit2:retrofit:2.9.0"
-        const val retrofit_converter_gson = "com.squareup.retrofit2:converter-gson:2.9.0"
-        const val adapter_rxjava = "com.squareup.retrofit2:adapter-rxjava:2.9.0"
-        const val adapter_rxjava2 = "com.squareup.retrofit2:adapter-rxjava2:2.3.0"
-        const val converter_calars = "com.squareup.retrofit2:converter-scalars:2.9.0"
+        const val retrofitConverterGson = "com.squareup.retrofit2:converter-gson:2.9.0"
+        const val adapterRxjava = "com.squareup.retrofit2:adapter-rxjava:2.9.0"
+        const val adapterRxjava2 = "com.squareup.retrofit2:adapter-rxjava2:2.3.0"
+        const val converterCalars = "com.squareup.retrofit2:converter-scalars:2.9.0"
     }
 
 
@@ -73,7 +73,7 @@ object ThirdLib {
 
     object Stetho_okhttp3 {
         private const val stetho_okhttp3_version = "1.5.0"
-        const val stetho_okhttp3 = "com.facebook.stetho:stetho-okhttp3:${stetho_okhttp3_version}"
+        const val stethoOkhttp3 = "com.facebook.stetho:stetho-okhttp3:${stetho_okhttp3_version}"
     }
 
 
@@ -132,18 +132,18 @@ object ThirdLib {
 
     object Arouter {
         private const val arouter_version = "1.5.2"
-        const val arouter_api = "com.alibaba:arouter-api:$arouter_version"
-        const val arouter_compiler = "com.alibaba:arouter-compiler:$arouter_version"
+        const val arouterApi = "com.alibaba:arouter-api:$arouter_version"
+        const val arouterCompiler = "com.alibaba:arouter-compiler:$arouter_version"
     }
 
     val tinker = Tinker
 
     object Tinker {
         private const val tinker_version = "1.9.14.18"
-        const val tinker_lib = "com.tencent.tinker:tinker-android-lib:$tinker_version"
-        const val tinker_loader = "com.tencent.tinker:tinker-android-loader:$tinker_version"
-        const val tinker_ano = "com.tencent.tinker:tinker-android-anno:$tinker_version"
-        const val tinker_ano_support =
+        const val tinkerLib = "com.tencent.tinker:tinker-android-lib:$tinker_version"
+        const val tinkerLoader = "com.tencent.tinker:tinker-android-loader:$tinker_version"
+        const val tinkerAno = "com.tencent.tinker:tinker-android-anno:$tinker_version"
+        const val tinkerAnoSupport =
             "com.tencent.tinker:tinker-android-anno-support:$tinker_version"
     }
 
@@ -151,10 +151,10 @@ object ThirdLib {
 
     object Leakcanary {
         private const val leakcanary_version = "1.6.2"
-        const val leakcanary_a = "com.squareup.leakcanary:leakcanary-android:$leakcanary_version"
-        const val leakcanary_a_n_o =
+        const val leakcanaryAnd = "com.squareup.leakcanary:leakcanary-android:$leakcanary_version"
+        const val leakcanaryAndNoOp =
             "com.squareup.leakcanary:leakcanary-android-no-op:$leakcanary_version"
-        const val leakcanary_s_f =
+        const val leakcanarySuppFrag =
             "com.squareup.leakcanary:leakcanary-support-fragment:$leakcanary_version"
 
     }
@@ -186,7 +186,7 @@ object ThirdLib {
     }
 
     object GoogleGson {
-        const val google_gson = "com.google.code.gson:gson:2.8.8"
+        const val googleGson = "com.google.code.gson:gson:2.8.8"
     }
 
     object Immersionbar {
