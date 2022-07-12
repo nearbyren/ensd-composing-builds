@@ -192,5 +192,8 @@ object ThirdLib {
     object Immersionbar {
         const val immersionbar = "com.gyf.immersionbar:immersionbar:3.0.0"
     }
+    object Utilcodex {
+        const val utilcodex = "  com.blankj:utilcodex:1.29.0"
+    }
 
 }

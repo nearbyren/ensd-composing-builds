@@ -14,7 +14,7 @@ object AndroidX {
     const val appcompat = "androidx.appcompat:appcompat:1.3.1"
     const val support_compat = "androidx.core:core:1.0.0"
     const val recyclerView = "  androidx.recyclerview:recyclerview:1.2.1"
-    const val coreKtx = "androidx.core:core-ktx:1.2.0"
+    const val coreKtx = "androidx.core:core-ktx:1.6.0"
     const val support_v13 = "androidx.legacy:legacy-support-v13:1.0.0"
     const val activityKtx = "androidx.activity:activity-ktx:1.4.0"
     const val cardview = "androidx.cardview:cardview:1.0.0"
@@ -65,8 +65,8 @@ object AndroidX {
         private const val navigation_version = "2.4.2"
         const val fragmentKtx = "androidx.navigation:navigation-fragment-ktx:$navigation_version"
         const val uiKtx = "androidx.navigation:navigation-ui-ktx:$navigation_version"
-        const val kot_cor_and = "org.jetbrains.kotlinx:kotlinx-coroutines-android:1.5.2"
-        const val kot_cor_cor = "org.jetbrains.kotlinx:kotlinx-coroutines-core:1.5.2"
+        const val kot_cor_and = "org.jetbrains.kotlinx:kotlinx-coroutines-android:1.5.0"
+        const val kot_cor_cor = "org.jetbrains.kotlinx:kotlinx-coroutines-core:1.5.0"
     }
 
 
