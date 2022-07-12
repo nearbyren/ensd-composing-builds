@@ -69,9 +69,9 @@ object ThirdLib {
 
 
     //拦截请求调试
-    val stetho_okhttp3 = Stetho_okhttp3
+    val stethoOkhttp3 = StethoOkhttp3
 
-    object Stetho_okhttp3 {
+    object StethoOkhttp3 {
         private const val stetho_okhttp3_version = "1.5.0"
         const val stethoOkhttp3 = "com.facebook.stetho:stetho-okhttp3:${stetho_okhttp3_version}"
     }
@@ -105,7 +105,7 @@ object ThirdLib {
     object Smarttablayout {
         const val smarttablayout =
             "com.ogaclejapan.smarttablayout:library:2.0.0@aar"
-        const val smarttablayout_utils =
+        const val smarttablayoutUtils =
             "com.ogaclejapan.smarttablayout:utils-v4:2.0.0@aar"
     }
 
@@ -124,7 +124,7 @@ object ThirdLib {
         private const val permissionsdispatcher_version = "2.1.3"
         const val permissionsdispatcher =
             "com.github.hotchemi:permissionsdispatcher:${permissionsdispatcher_version}"
-        const val permissionsdispatcher_processor =
+        const val permissionsdispatcherProcessor =
             "com.github.hotchemi:permissionsdispatcher-processor:${permissionsdispatcher_version}"
     }
 
@@ -182,7 +182,7 @@ object ThirdLib {
     }
 
     object KotlinStdlib {
-        const val kotlin_stdlib = "org.jetbrains.kotlin:kotlin-stdlib:1.5.0"
+        const val kotlinStdlib = "org.jetbrains.kotlin:kotlin-stdlib:1.5.0"
     }
 
     object GoogleGson {
