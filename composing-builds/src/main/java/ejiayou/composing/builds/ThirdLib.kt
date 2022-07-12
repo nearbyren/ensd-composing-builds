@@ -62,7 +62,8 @@ object ThirdLib {
         const val logging_interceptor = "com.squareup.okhttp3:logging-interceptor:3.8.1"
         const val retrofit = "com.squareup.retrofit2:retrofit:2.9.0"
         const val retrofit_converter_gson = "com.squareup.retrofit2:converter-gson:2.9.0"
-        const val adapter_rxjava2 = "com.squareup.retrofit2:adapter-rxjava:2.9.0"
+        const val adapter_rxjava = "com.squareup.retrofit2:adapter-rxjava:2.9.0"
+        const val adapter_rxjava2 = "com.squareup.retrofit2:adapter-rxjava2:2.3.0"
         const val converter_calars = "com.squareup.retrofit2:converter-scalars:2.9.0"
     }
 
