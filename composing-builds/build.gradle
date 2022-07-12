@@ -30,7 +30,6 @@ gradlePlugin {
     }
 }
 
-sourceCompatibility = JavaVersion.VERSION_11
 
 
 group = 'ejiayou.composing.builds'
