@@ -17,9 +17,10 @@ override fun apply(p0: Project) {
 在目录build.gradle
 添加
 
+```
 apply plugin: 'java-gradle-plugin'
 apply plugin: 'maven-publish'
-
+```
 
 //本地依赖插件时使用
 ```
