@@ -77,7 +77,9 @@ repositoriesMode.set(RepositoriesMode.FAIL_ON_PROJECT_REPOS)
         google()
         mavenCentral()
         jcenter() // Warning: this repository is going to shut down soon
-        maven { url 'https://jitpack.io' }//此处标记上传插件的地址
+        maven { 
+            url 'https://jitpack.io' 
+        }//此处标记上传插件的地址
     }
 }
 ```
