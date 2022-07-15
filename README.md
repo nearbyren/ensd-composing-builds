@@ -5,23 +5,25 @@ xx目录名称
 xxx包名目录
 
 创建插件class
+```
 class EjiayouGradlePlugin : Plugin<Project>{
 override fun apply(p0: Project) {
 
     }
-
     companion object{
-
     }
 }
+```
 在目录build.gradle
 添加
 
+```
 apply plugin: 'java-gradle-plugin'
 apply plugin: 'maven-publish'
-
+```
 
 //本地依赖插件时使用
+```
 gradlePlugin {
     plugins {
         routerPlugin {
@@ -32,11 +34,13 @@ gradlePlugin {
         }
     }
 }
-
+```
 
 group = 'ejiayou.composing.builds'
 version = '1.0.0'
 //远程上传插件
+
+```
 publishing {
     publications {
         maven(MavenPublication) {
@@ -53,15 +57,20 @@ publishing {
         }
     }
 }
+```
 
 在app build.gradle
 
+```
 plugins {
     //...
     id 'org.jetbrains.kotlin.android'
 }
-在settings.gradle
+```
 
+//在settings.gradle
+
+```
 dependencyResolutionManagement {
 repositoriesMode.set(RepositoriesMode.FAIL_ON_PROJECT_REPOS)
     repositories {
@@ -71,24 +80,36 @@ repositoriesMode.set(RepositoriesMode.FAIL_ON_PROJECT_REPOS)
         maven { url 'https://jitpack.io' }//此处标记上传插件的地址
     }
 }
+```
 
-
+```
 include ':composing-builds'
-
+```
 
 # JitPack 步骤
 
 步骤一 项目根目录 build.gradle 添加
-
+```
 classpath 'com.github.dcendents:android-maven-gradle-plugin:2.1'
-
+```
 
 ------------------------------------------------------------------------------------------------------------------------
 
 
 步骤二 项目module目录 build.gradle 添加
-
+```
 plugins { //... id 'maven-publish' }
+```
 
-afterEvaluate { publishing { publications { release(MavenPublication) { from components.release
-groupId = 'ejiayou.com.ren.lib.http' artifactId = 'http' version = '1.0.0' } } } }
+```
+afterEvaluate { 
+    publishing { 
+        publications { 
+            release(MavenPublication) { 
+                    from components.release
+                    groupId = 'ejiayou.com.ren.lib.http' artifactId = 'http' version = '1.0.0' 
+            } 
+        } 
+    } 
+}
+```
