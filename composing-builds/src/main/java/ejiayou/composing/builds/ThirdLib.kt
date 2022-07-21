@@ -205,7 +205,7 @@ object ThirdLib {
     }
 
     object AlignTextView {
-        const val alignTextView = "me.codeboy.android:align-text-view:3.0.0"
+        const val alignTextView = "me.codeboy.android:align-text-view:2.3.2"
     }
 
     object LabelsView {
@@ -226,6 +226,11 @@ object ThirdLib {
 
     object Permissionx {
         const val permissionx = "com.guolindev.permissionx:permissionx:1.6.4"
+    }
+
+    object Sketch {
+        const val sketch = "me.panpf:sketch:2.6.1"
+        const val sketchGif = "me.panpf:sketch-gif:2.6.1"
     }
 
 }
