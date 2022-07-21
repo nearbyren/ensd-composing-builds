@@ -193,7 +193,11 @@ object ThirdLib {
         const val immersionbar = "com.gyf.immersionbar:immersionbar:3.0.0"
     }
     object Utilcodex {
-        const val utilcodex = "  com.blankj:utilcodex:1.29.0"
+        const val utilcodex = "com.blankj:utilcodex:1.29.0"
+    }
+
+    object Refresh {
+        const val refreshLayoutKernel = "  io.github.scwang90:refresh-layout-kernel:2.0.5"
     }
 
 }
