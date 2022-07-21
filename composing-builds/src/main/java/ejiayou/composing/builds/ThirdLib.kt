@@ -22,7 +22,7 @@ object ThirdLib {
     val logger = Logger
 
     object Logger {
-        private const val logger_version = "2.1.1"
+        private const val logger_version = "2.2.0"
         const val logger = "com.orhanobut:logger:${logger_version}"
     }
 
@@ -160,17 +160,30 @@ object ThirdLib {
 
 
     object Glide {
-        const val glide = "com.github.bumptech.glide:glide:1.6.2"
+        const val glide = "com.github.bumptech.glide:glide:4.12.0"
+        //注解处理器
+        const val glideCompiler = "com.github.bumptech.glide:compiler:4.12.0"
     }
 
     object Lottie {
-        const val lottie = "com.airbnb.android:lottie:3.4.4"
+        const val lottie = "com.airbnb.android:lottie:5.0.3"
     }
 
     object Easypermissions {
         const val easypermissions = "pub.devrel:easypermissions:3.0.0"
     }
 
+    object ChannelHelper {
+        const val helper = "com.leon.channel:helper:2.0.3"
+    }
+
+    object Eventbus {
+        const val eventbus = "org.greenrobot:eventbus:3.3.1"
+    }
+
+    object Autosize {
+        const val autosize = "me.jessyan:autosize:1.2.1"
+    }
 
     object MmkvStatic {
         const val mmkvStatic = "com.tencent:mmkv-static:1.2.8"
@@ -183,20 +196,36 @@ object ThirdLib {
     object KotlinStdlib {
         const val kotlinStdlib = "org.jetbrains.kotlin:kotlin-stdlib:1.5.0"
     }
-
-    object GoogleGson {
-        const val googleGson = "com.google.code.gson:gson:2.8.8"
+    object Fastjson {
+        const val fastjson = "com.alibaba:fastjson:1.2.44"
     }
 
     object Immersionbar {
         const val immersionbar = "com.gyf.immersionbar:immersionbar:3.0.0"
     }
+
+    object AlignTextView {
+        const val alignTextView = "me.codeboy.android:align-text-view:3.0.0"
+    }
+
+    object LabelsView {
+        const val labelsView = "com.github.donkingliang:LabelsView:1.6.0"
+    }
+
     object Utilcodex {
         const val utilcodex = "com.blankj:utilcodex:1.29.0"
     }
 
     object Refresh {
-        const val refreshLayoutKernel = "  io.github.scwang90:refresh-layout-kernel:2.0.5"
+        const val refreshLayoutKernel = "io.github.scwang90:refresh-layout-kernel:2.0.5"
+    }
+
+    object MagicIndicator {
+        const val magicIndicator = "com.github.hackware1993:MagicIndicator:1.5.0"
+    }
+
+    object Permissionx {
+        const val permissionx = "com.guolindev.permissionx:permissionx:1.6.4"
     }
 
 }
