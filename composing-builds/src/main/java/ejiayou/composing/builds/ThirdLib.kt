@@ -131,9 +131,8 @@ object ThirdLib {
     val arouter = Arouter
 
     object Arouter {
-        private const val arouter_version = "1.5.2"
-        const val arouterApi = "com.alibaba:arouter-api:$arouter_version"
-        const val arouterCompiler = "com.alibaba:arouter-compiler:$arouter_version"
+        const val arouterApi = "com.alibaba:arouter-api:1.5.2"
+        const val arouterCompiler = "com.alibaba:arouter-compiler:1.5.2"
     }
 
     val tinker = Tinker

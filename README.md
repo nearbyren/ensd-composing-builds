@@ -77,7 +77,9 @@ repositoriesMode.set(RepositoriesMode.FAIL_ON_PROJECT_REPOS)
         google()
         mavenCentral()
         jcenter() // Warning: this repository is going to shut down soon
-        maven { url 'https://jitpack.io' }//此处标记上传插件的地址
+        maven { 
+            url 'https://jitpack.io' 
+        }//此处标记上传插件的地址
     }
 }
 ```
@@ -107,7 +109,9 @@ afterEvaluate {
         publications { 
             release(MavenPublication) { 
                     from components.release
-                    groupId = 'ejiayou.com.ren.lib.http' artifactId = 'http' version = '1.0.0' 
+                    groupId = 'ejiayou.composing.builds' 
+                    artifactId = 'http' 
+                    version = '1.0.0' 
             } 
         } 
     } 
